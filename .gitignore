@@ -1,4 +1,10 @@
 .venv/
 .idea/
 __pycache__/
+
+# Ignore all pickle files by default
 *.pkl
+
+# BUT track required ML files
+!movies_dict.pkl
+!similarity.pkl
